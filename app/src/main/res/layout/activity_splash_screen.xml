@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/rti_logo"
+        android:layout_width="match_parent"
+        android:layout_height="588dp"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:src="@drawable/rti_logo" />
+
+    <customefonts.TextViewSFProDisplayRegular
+        android:id="@+id/rti_text"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Real Time Inverstment!"
+        android:textColor="#000" />
+</LinearLayout>

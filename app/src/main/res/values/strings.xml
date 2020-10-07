@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Real Time Investment</string>
+    <string name="hello_world" />
+    <string name="pincode">Pincode</string>
+</resources>
